@@ -15,7 +15,7 @@
     --pagefind-ui-font: var(--theme-font--copy);
   }
   .pagefind-ui--reset {
-    position: fixed;
+    position: absolute;
   }
   #search .pagefind-ui__search-input {
     box-shadow: var(--theme-box-shadow--inset);
@@ -35,6 +35,7 @@
   }
   #search .pagefind-ui__result:focus-within, #search .pagefind-ui__button:focus {
   background-color: var(--theme-color--block)
+  position: relative;
 }
   #search .pagefind-ui__result-thumb {
     width: min-content;
